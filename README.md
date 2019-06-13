@@ -15,16 +15,16 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 ** Source: https://code.google.com/archive/p/marsrovertechchallenge/
 
 <h2>Assumptions</h2>
-- NASA knows that coordinates must be input with a space between each
-- Cardinal headings will be input in uppercase
-- Rovers move one at a time, sequentially
-- All instructions will be sent in one input string
+- NASA knows that coordinates must be input with a space between each\n
+- Cardinal headings will be input in uppercase\n
+- Rovers move one at a time, sequentially\n
+- All instructions will be sent in one input string\n
 
 <h2>Program Use</h2>
-Run venv/MarsRover.py. 
+Run venv/MarsRover.py. \n
 
-Three inputs are required:
-First input prompt requires top right coordinates of terrain grid.
-Thereafter, two inputs for each rover:
-Input a) Intial location of rover in the form X Y H (e.g 3 4 N)
+Three inputs are required:\n
+  First input prompt requires top right coordinates of terrain grid.\n
+Thereafter, two inputs for each rover:\n
+Input a) Intial location of rover in the form X Y H (e.g 3 4 N)\n
 Input b) A list of instructions from the commands L, R, M (e.g. LMMRMLMM)
